@@ -1,7 +1,3 @@
-
-
-
-
 function regen() {
 	// home
 	prepareSlideshow();
@@ -18,5 +14,3 @@ function regen() {
 	focusLabels();
 	prepareForms();
 }
-
-
