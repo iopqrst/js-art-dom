@@ -42,11 +42,17 @@
 			//全部输出 -> 具体值（兼容所有）
 			//alert(elfor.getAttribute("fucker"))
 			
-			elfor.setAttribute("betest","just test setAttribute");
-			// 都能获取到
-			alert(elfor.getAttribute("betest"));
+//			elfor.setAttribute("betest","just test setAttribute");
+//			// ie,firefox,chrome 都能获取到值
+//			alert(elfor.getAttribute("betest"));
+//			// ie6,7,8 能获取到， 但是firefox，chrome -> undefined
+//			alert(elfor.betest);
+			
+			elfor.setAttribute("title","attribute's name");
+			// ie,firefox,chrome 都能获取到值
+			alert(elfor.getAttribute("title"));
 			// ie6,7,8 能获取到， 但是firefox，chrome -> undefined
-			alert(elfor.betest);
+			alert(elfor.title);
 		</script>
 	</body>
 
